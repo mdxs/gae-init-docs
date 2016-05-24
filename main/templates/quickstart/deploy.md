@@ -4,16 +4,10 @@ Deploy your app to Google App Engine, so that anyone can access your app in the 
 
 2. Note the Project ID of that project.
 
-3. Start a console and change into the `hello` sample app directory:
-
-    ```
-    cd hello
-    ```
-
-4. Deploy your application to Google App Engine, using the above Project ID as an argument:
+3. Deploy your application to Google App Engine, using the above Project ID as an argument:
 
     ```
     gulp deploy --project=<YOUR_PROJECT_ID>
     ```
 
-5. When finished, your app will be ready to serve traffic at `https://<YOUR_PROJECT_ID>.appspot.com/`
+4. When finished, your app will be ready to serve traffic at `https://<YOUR_PROJECT_ID>.appspot.com/`
